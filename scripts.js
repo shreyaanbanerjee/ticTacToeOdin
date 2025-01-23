@@ -9,7 +9,7 @@ const displayController = (() => {
   const pOneColor = cssRoot.getPropertyValue('--player1');
   const playerOneSymbolURL = 'png/cross.png';
   const playerTwoColor = cssRoot.getPropertyValue('--player2');
-  const playerTwoPicture = 'png/player-alt.png';
+  const playerTwoPicture = 'png/boy.png';
   const letterO = 'png/letter-o.png';
   const robotColor = cssRoot.getPropertyValue('--robot');
   const robotPicture = 'png/robot.png';
@@ -55,7 +55,7 @@ const displayController = (() => {
         resetGame();
         break;
       case 'game--pvp':
-        setEnemyAttributes(playerTwoPicture, playerTwoColor, playerTwoSymbol);
+        setEnemyAttributes(playerTwoPicture, playerTwoColor, letterO);
         gameMode = 'pvp';
         break;
       case 'game--pve':
