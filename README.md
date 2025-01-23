@@ -1,4 +1,4 @@
 # ticTacToeOdin
 ## Live preview
 
-> https://shreyaanbanerjee.github.io/tic-tac-toe_odin/
+> https://shreyaanbanerjee.github.io/ticTacToeOdin/
